@@ -1,0 +1,35 @@
+{
+  "name": "mongodb-connection-checker",
+  "version": "1.0.0",
+  "description": "Robust MongoDB connection manager with health checking, automatic reconnection, and comprehensive error handling",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/runTests.js",
+    "test:connection": "node examples/testConnection.js",
+    "test:view": "node examples/viewTestResults.js",
+    "example:basic": "node examples/basicUsage.js",
+    "example:health": "node examples/healthMonitoring.js",
+    "example:events": "node examples/eventHandling.js",
+    "example:advanced": "node examples/advancedUsage.js"
+  },
+  "keywords": [
+    "mongodb",
+    "connection",
+    "health-check",
+    "database",
+    "reconnection",
+    "nodejs",
+    "monitoring"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mongoose": "^8.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
